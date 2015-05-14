@@ -170,7 +170,7 @@ Parallax
 [class*="bg__"] {
   height: 150px;
     margin: 10% 0 10% 0;
-
+    
   text-indent: -9999px;
 
   /* fix background */
@@ -185,19 +185,19 @@ Parallax
 
 .bg__blog {
   background-image: url(
-    Img/cloud.jpeg
+    Img/cloud2.jpg
   );
 }
 
 .bg__work {
   background-image: url(
-    Img/forest.jpeg
+    Img/forest1.jpg
   );
 }
 
 .bg__follow {
   background-image: url(
-    Img/stars.jpeg
+    Img/sunset1.jpg
   );
 }
 
