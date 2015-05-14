@@ -163,6 +163,48 @@ My Work
     -o-transform:scale(1.5); /* Opera */
 }
 
+/**********************************
+Parallax
+***********************************/
+
+[class*="bg__"] {
+  height: 150px;
+    margin: 10% 0 10% 0;
+
+  text-indent: -9999px;
+
+  /* fix background */
+  background-attachment: fixed;
+
+  /* center it */
+  background-position: center center;
+
+  /* Scale it to the element */
+  background-size: cover;
+}
+
+.bg__blog {
+  background-image: url(
+    Img/cloud.jpeg
+  );
+}
+
+.bg__work {
+  background-image: url(
+    Img/forest.jpeg
+  );
+}
+
+.bg__follow {
+  background-image: url(
+    Img/stars.jpeg
+  );
+}
+
+
+
+
+
 
 /**********************************
 Footer
