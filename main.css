@@ -140,6 +140,14 @@ a.blog:hover{
 /**********************************
 My Work
 ***********************************/
+.workContainer {
+    padding: 0 5% 0 5%;
+    max-width: 940px;
+    margin: auto;
+    text-align: center;
+
+
+}
 .workLayout {
     margin: 0;
     padding: 0;
@@ -156,7 +164,8 @@ My Work
 
 .workLayout li {
     float: left;
-    margin: 0 50px 50px 50px;
+    width: 70%;
+    margin: 0 15% 50px 15%;
     object-fit: cover;
     overflow: hidden;
 }
