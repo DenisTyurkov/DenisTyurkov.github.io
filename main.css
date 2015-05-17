@@ -6,12 +6,6 @@ GENERAL
     box-sizing: border-box;
 }
 
-body {
-    max-width: 940px;
-    margin: 0;
-    padding: 0;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -21,7 +15,19 @@ img {
   max-width: 100%;
 }
 
+body {
+    margin: 0;
+    padding: 0;
 
+}
+
+.mainContainer {
+
+    width: 100%;
+    text-align: center;
+    
+
+}
 
 /**********************************
 INTRO
@@ -31,6 +37,8 @@ INTRO
     display: block;
     padding: 0 5% 0 5%;
     text-align: center;
+    max-width: 940px;
+    margin: auto;
 }
 
 .intro h2 {
@@ -89,6 +97,8 @@ BLOG
     display: block;
     text-align: center;
     padding: 0 5% 0 5%;
+    max-width: 940px;
+    margin: auto;
 }
 
 .blog {
@@ -131,16 +141,33 @@ a.blog:hover{
 My Work
 ***********************************/
 .workLayout {
-    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    clear: both;
+
+    /*display: block;
     text-align: center;
     padding: 0 5% 0 5%;
+    max-width: 940px;
+    margin: auto;
+    clear: both;*/
 }
 
+.workLayout li {
+    float: left;
+    margin: 0 50px 50px 50px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/*
 .myWork{
     display: table;
     width: 100%;
     margin: 0 0 20px 0;
     border-bottom: 10px solid #ffffff;
+    float: left;
 }
 
 .work {
@@ -148,7 +175,8 @@ My Work
     width: 100%;
     object-fit: cover;
     overflow: hidden;
-}
+    
+}*/
 
 .work img {
     transition: all .3s ease;
@@ -166,39 +194,44 @@ My Work
 /**********************************
 Parallax
 ***********************************/
+.parallax {
+    margin: 0;
+}
+
 
 [class*="bg__"] {
-  height: 150px;
-    margin: 10% 0 10% 0;
-    
-  text-indent: -9999px;
+    height: 150px;
+    margin: 50px 0 50px 0;
 
-  /* fix background */
-  background-attachment: fixed;
+    text-indent: -9999px;
 
-  /* center it */
-  background-position: center center;
+    /* fix background */
+    background-attachment: fixed;
 
-  /* Scale it to the element */
-  background-size: cover;
+    /* center it */
+    background-position: center center;
+
+    /* Scale it to the element */
+    background-size: cover;
+    clear: both;
 }
 
 .bg__blog {
-  background-image: url(
-    Img/cloud2.jpg
-  );
+    background-image: url(
+    Img/blog.jpeg
+    );
 }
 
 .bg__work {
-  background-image: url(
-    Img/forest1.jpg
-  );
+    background-image: url(
+    Img/work.JPG
+    );
 }
 
 .bg__follow {
-  background-image: url(
-    Img/sunset1.jpg
-  );
+    background-image: url(
+    Img/social.JPG
+    );
 }
 
 

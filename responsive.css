@@ -1,0 +1,14 @@
+@media screen and (min-width: 877px) {
+  
+  /**********************************
+  TWO COLUMN LAYOUT
+  ***********************************/
+ 
+    .workLayout li  {
+        width: 43%;
+    
+    }
+    
+}
+
+
