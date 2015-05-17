@@ -164,8 +164,8 @@ My Work
 
 .workLayout li {
     float: left;
-    width: 70%;
-    margin: 0 15% 50px 15%;
+    width: 100%;
+    margin: 0 0 50px 0;
     object-fit: cover;
     overflow: hidden;
 }
