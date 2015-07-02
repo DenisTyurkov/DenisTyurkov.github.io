@@ -28,6 +28,15 @@ body {
     
 }
 
+#logo {
+    top: 20px;
+    left: 5%;
+    width: 52px;
+    height: 52px;
+    position: fixed;
+}
+
+
 /**********************************
 INTRO
 ***********************************/
@@ -76,7 +85,7 @@ INTRO
 
 
 .about img {
-    padding: 5% 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 
