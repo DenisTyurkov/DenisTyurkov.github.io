@@ -1,0 +1,124 @@
+/**********************************
+GENERAL
+***********************************/
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.mainContainer {
+
+    width: 100%;
+    text-align: center;
+    
+}
+
+/**********************************
+INTRO
+***********************************/
+
+.aboutContainer {
+    display: block;
+    padding: 0 5% 0 5%;
+    text-align: center;
+    max-width: 940px;
+    margin: auto;
+}
+
+.about h2 {
+    font-size: 2.25em;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.about h3 {
+    font-size: 1.50em;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+
+.about p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 1.05em;
+}
+.about p a {
+    font-weight: 500;
+}
+
+.about p a:hover {
+    color:  #da552f;
+}
+
+
+
+.about img {
+    padding: 5% 0 0 0;
+}
+
+
+.about li {
+    width:auto;
+    list-style: none;
+    margin-right: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 1.05em;
+    text-align: left;
+}
+
+
+
+/**********************************
+Social Icons
+***********************************/
+
+.socialIcons {
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+
+.socialIcons li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.socialIcons li a img{
+    width: 40px;
+    height: 40px;
+}
+
+
+/**********************************
+Footer
+***********************************/
+footer {
+    display: block;
+    padding: 0 5% 0 5%;
+    text-align: center;
+}
