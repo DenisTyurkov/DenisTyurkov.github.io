@@ -63,6 +63,7 @@ INTRO
 }
 .intro p a {
     font-weight: 500;
+    outline: none;
 }
 
 .intro p a:hover {
