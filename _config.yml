@@ -18,6 +18,8 @@ title: "Denis Tyur'kov"
 description: "I write about entrepreneurship, self-development, and workouts."
 
 url: "http://localhost:4000"
+# url: "http://http://denistyurkov.github.io/blog.html"
+baseurl: "/blog.html"
 
 paginate: 10
 
