@@ -1,14 +1,39 @@
 {% include header.html %}
 
+<!--
 <div class="row-fluid">
     <div class="span8">
+-->
+
+<section class="blogLayout">
+    <div class="blog">
+        <article class="content">
         <h1>{{ page.title }}</h1>
         <p class="muted">{{ page.date | date_to_long_string }}</p>
+        
+        {% capture count_words %} 
+        {{ page.content | number_of_words }} 
+        {% endcapture %}
+        <p>{{count_words}} Words in Post.</p>
+        
         {{ content }}
+
+        </article>
     </div>
+</section>
+
+<!--
+        {% capture time_words %} 
+            {{count_words | divided_by: 5}} 
+        {% endcapture %} 
+-->
+<!--    </div>-->
+<!--
     <div class="span4">
         {% include sidebar.html %}
     </div>
-</div>
+-->
+
+<!--</div>-->
 
 {% include footer.html %}

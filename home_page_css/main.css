@@ -140,6 +140,14 @@ BLOG
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.blog h4 {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
+    padding: 0 0 5px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .blog p {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
