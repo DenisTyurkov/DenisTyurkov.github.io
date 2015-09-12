@@ -4,10 +4,6 @@ layout: default
 
 {% for post in paginator.posts %}
 
-<!--
-<div class="row-fluid">
-    <div class="span12">
--->
 <section class="blogLayout">
     <div class="blog">
         <article class="content">
@@ -15,10 +11,6 @@ layout: default
         
         <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
         <h4>{{ post.date | date_to_long_string }}</h4>
-<!--
-    </div>
-</div>
--->
             
         </article>
     </div>
@@ -27,7 +19,7 @@ layout: default
 
 {% endfor %}
 
-<!--
+
 <div class="row-fluid">
   <div class="span12">
     <div class="pagination">
@@ -61,4 +53,4 @@ layout: default
       </ul>
     </div>
   </div>
-</div>-->
+</div>
